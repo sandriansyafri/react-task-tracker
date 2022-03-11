@@ -31,7 +31,7 @@ const FormTask = ({ addTask }) => {
                         </div>
                         <div className='form-control form-control-check'>
                               <label for="">Set Reminder</label>
-                              <input value={reminder} type="checkbox" onChange={(e) => setReminder(e.target.checked)} />
+                              <input checked={reminder} type="checkbox" onChange={(e) => setReminder(e.target.checked)} />
                         </div>
                         <input type="submit" value="Add Task" className='btn btn-block' />
                   </form>

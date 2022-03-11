@@ -1,3 +1,10 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "text": "sadf",
+      "day": "asdf",
+      "reminder": true,
+      "id": 1
+    }
+  ]
 }
